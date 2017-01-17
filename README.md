@@ -1,4 +1,4 @@
-# spring-config-service
+# spring-cloud-config-service-for-gits
 A Spring cloud config service backed by multiple git repositories.
 
 Simple unauthenticated service which provides configuration details for various applications. Each application may drive its  configuration with a personal git repository.
