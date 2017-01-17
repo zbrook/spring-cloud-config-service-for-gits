@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:/tmp/git/config/common
+          clone-on-start: true
+          repos:
+            app1:
+              pattern: app1-*
+              uri: file:/tmp/git/config/app1
+            app2:
+              pattern: app2-*
+              uri: file:/tmp/git/config/app2
